@@ -59,6 +59,28 @@ When you add the folloing script to your `package.json`,
 
 you can run it with `bun run start`
 
+### bun add
+
+Add a dependency to package.json
+
+```shell
+$ bun add figlet
+$ bun add -d @types/figlet # TypeScript users only
+```
+
+```diff
+   "devDependencies": {
++    "@types/figlet": "^1.5.6",
+     "bun-types": "^0.6.0"
+   },
+   "peerDependencies": {
+     "typescript": "^5.0.0"
++  },
++  "dependencies": {
++    "figlet": "^1.6.0"
+   }
+```
+
 ## Installation
 
 ```shell
