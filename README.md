@@ -25,6 +25,20 @@ Run, test, transpile, and bundle JavaScript & TypeScript projects — all in Bun
 $ bun init
 ```
 
+```shell
+package name (quickstart):
+entry point (index.ts):
+
+Done! A package.json file was saved in the current directory.
+ + index.ts
+ + .gitignore
+ + tsconfig.json (for editor auto-complete)
+ + README.md
+
+To get started, run:
+  bun run index.ts
+```
+
 ## Installation
 
 ```shell
