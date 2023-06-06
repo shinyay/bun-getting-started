@@ -47,6 +47,18 @@ Run JavaScript with bun, a package.json script, or a bin.
 $ bun run index.ts
 ```
 
+#### run a script
+
+When you add the folloing script to your `package.json`,
+
+```json
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+```
+
+you can run it with `bun run start`
+
 ## Installation
 
 ```shell
