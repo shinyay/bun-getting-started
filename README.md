@@ -19,6 +19,22 @@ Run, test, transpile, and bundle JavaScript & TypeScript projects — all in Bun
 
 ## Installation
 
+```shell
+$ curl -fsSL https://bun.sh/install | bash
+```
+
+```shell
+######################################################################## 100.0%
+bun was installed successfully to ~/.bun/bin/bun 
+
+Added "~/.bun/bin" to $PATH in "~/.config/fish/config.fish" 
+
+To get started, run: 
+
+ source ~/.config/fish/config.fish 
+  bun --help 
+```
+
 ## References
 
 ## Licence
