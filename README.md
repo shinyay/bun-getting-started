@@ -17,6 +17,14 @@ Run, test, transpile, and bundle JavaScript & TypeScript projects — all in Bun
 
 ## Usage
 
+### bun init
+
+`bun init` helps you get started with a minimal project and tries to guess sensible defaults.
+
+```shell
+$ bun init
+```
+
 ## Installation
 
 ```shell
