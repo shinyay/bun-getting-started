@@ -1,6 +1,8 @@
-# Name
+# Getting Started with Bun
 
-Overview
+**Bun is a fast all-in-one JavaScript runtime**
+
+Run, test, transpile, and bundle JavaScript & TypeScript projects — all in Bun. Bun is a new JavaScript runtime built for speed, with a native bundler, transpiler, test runner, and npm-compatible package manager baked-in.
 
 ## Description
 
