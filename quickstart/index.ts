@@ -1,5 +1,9 @@
+import figlet from "figlet";
+
 const server = Bun.serve({
     fetch(req: Request): Response | Promise<Response> {
+        const body = figlet.textSync("Bun!")
+        return new Response(body);
         return new Response("Hello Bun!");
       },
 
