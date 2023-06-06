@@ -39,6 +39,14 @@ To get started, run:
   bun run index.ts
 ```
 
+### bun run
+
+Run JavaScript with bun, a package.json script, or a bin.
+
+```shell
+$ bun run index.ts
+```
+
 ## Installation
 
 ```shell
